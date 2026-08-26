@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nael baobayd — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+
+<header class="topnav">
+  <div class="navbar">
+    <div class="brand" id="nav-name">Your Name</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero theme-navy" id="top">
+    <div class="wrap">
+      <h1 id="hero-name">Name</h1>
+      <p class="role" id="hero-role">Title</p>
+      <div class="actions">
+        <a class="btn on-dark primary" href="#projects">View projects</a>
+        <a class="btn on-dark ghost" href="#contact">Get in touch</a>
+      </div>
+      <div class="specsheet" id="specsheet"></div>
+    </div>
+  </section>
+
+  <div class="palette-strip"><span class="s1"></span><span class="s2"></span><span class="s3"></span><span class="s4"></span></div>
+
+  <!-- ABOUT -->
+  <section class="theme-mint" id="about">
+    <div class="wrap">
+      <div class="section-head"><h2>About</h2><span class="rule"></span></div>
+      <div class="about-grid">
+        <div id="about-text"></div>
+        <div class="skills-box card">
+          <div class="label">Skills &amp; tools</div>
+          <div class="skills-list" id="skills-list"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="palette-strip"><span class="s1"></span><span class="s2"></span><span class="s3"></span><span class="s4"></span></div>
+
+  <!-- EXPERIENCE -->
+  <section class="theme-teal" id="experience">
+    <div class="wrap">
+      <div class="section-head"><h2>Experience</h2><span class="rule"></span></div>
+      <div class="timeline" id="experience-list"></div>
+    </div>
+  </section>
+
+  <div class="palette-strip"><span class="s1"></span><span class="s2"></span><span class="s3"></span><span class="s4"></span></div>
+
+  <!-- PROJECTS -->
+  <section class="theme-cream" id="projects">
+    <div class="wrap">
+      <div class="section-head"><h2>Projects</h2><span class="rule"></span></div>
+      <div class="projects-grid" id="projects-grid"></div>
+    </div>
+  </section>
+
+  <div class="palette-strip"><span class="s1"></span><span class="s2"></span><span class="s3"></span><span class="s4"></span></div>
+
+  <!-- CONTACT -->
+  <footer class="theme-navy" id="contact">
+    <div class="wrap">
+      <div class="contact-inner">
+        <div>
+          <h2 id="contact-heading">Let's talk.</h2>
+          <p class="foot-lede fg-soft" id="contact-text">Open to new projects, collaborations, and interesting conversations.</p>
+          <a class="btn on-dark primary" id="contact-cta" href="mailto:you@example.com">Say hello</a>
+        </div>
+        <div class="contact-links" id="contact-links"></div>
+      </div>
+      <div class="foot-bottom">
+        <span id="foot-name">© 2026 Nael baobaid</span>
+      </div>
+    </div>
+  </footer>
+
+</main>
+
+</body>
+</html>
