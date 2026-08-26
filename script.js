@@ -22,6 +22,13 @@ const DATA = {
 
   experience: [
     {
+      title: "GPLR: Generative Personalized Learning Recommendation Framework",
+      year: "2025 – Present",
+      description: "Master's thesis framework recommending personalized learning paths for learners' weak concepts, combining K-Means clustering, concept graphs, and topological path generation. Benchmarked Logistic Regression, Random Forest, Gradient Boosting, and a Concept-Attention Transformer, reaching ~96% accuracy / macro F1 across 5,492 training and 1,374 test learners.",
+      tags: ["Python", "PyTorch", "scikit-learn"],
+      link: ""
+    },
+    {
       role: "Application Program",
       company: "Business Schema Trading",
       period: "2023 — 2025",
