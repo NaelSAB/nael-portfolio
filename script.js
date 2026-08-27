@@ -1,7 +1,7 @@
 const DATA = {
 
   name: "Nael Baobayd",
-  role: "Software enginering",
+  role: "Software Developer",
 
   specs: [
     { label: "Based in",  value: "Jeddah, Saudi Arabia" },
