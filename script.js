@@ -5,7 +5,7 @@ const DATA = {
 
   specs: [
     { label: "Based in",  value: "Jeddah, Saudi Arabia" },
-    { label: "Focus",     value: "Software Enginering" },
+    { label: "Focus",     value: "Software Developer" },
     { label: "Experience", value: "2+ years" },
   ],
 
